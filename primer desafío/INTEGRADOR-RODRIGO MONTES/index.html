@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/primer desafío/INTEGRADOR-RODRIGO MONTES/styles/index-style.css">
+    <title>E-Commerce de Tecnología</title>
+</head>
+
+<body>
+    <header>
+        <img src="/primer desafío/INTEGRADOR-RODRIGO MONTES/logo.png" alt="Logo">
+        <h1>Tienda Tecnológica</h1>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#product-list">Productos</a></li>
+                <li><a href="#reviews">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+
+    <main>
+        <form id="searchForm" class="search-form">
+            <input type="text" id="buscador" placeholder="Buscar productos...">
+            <select id="tipoProducto">
+                <option value="">Filtrar por tipo</option>
+                <option value="monitores">Monitores</option> 
+                <option value="placas">Placas</option>
+                <option value="discosSSD">Discos SSD</option>
+                <option value="perifericos">Periféricos</option>
+            </select>
+            <label for="ordenarPrecio">Ordenar por precio:</label>
+            <select id="ordenarPrecio">
+                <option value="menor">Menor a mayor</option>
+                <option value="mayor">Mayor a menor</option>
+            </select>
+            <button type="submit">Buscar</button>
+        </form>
+
+        <div id="product-list" class="product-list">
+            <div class="product">
+                <img src="/primer desafío/INTEGRADOR-RODRIGO MONTES/img/descarga.jfif" alt="Producto 1">
+                <h2>Monitor Curvo Philips LED de 27" Full HD</h2>
+                <p>La pantalla curva E-Line de 27” ofrece una experiencia verdaderamente envolvente con un diseño
+                    elegante.</p>
+                <p><strong>Precio: $414.199,00</strong></p>
+            </div>
+            <div class="product">
+                <img src="/primer desafío/INTEGRADOR-RODRIGO MONTES/img/ram-ddr5.png" alt="Producto 2">
+                <h2>Memoria RAM Kingston 16GB DDR5 5600Mhz Fury Beast
+                </h2>
+                <p>Capacidad: 16GB </p>
+                <p>Velocidad: 5600Mhz</p>
+                <p><strong>Precio: $74.999,00</strong></p>
+            </div>
+            <div class="product">
+                <img src="/primer desafío/INTEGRADOR-RODRIGO MONTES/img/disco-ssd.png" alt="Producto 3">
+                <h2> Disco Solido SSD SATA Crucial 500GB
+                </h2>
+                <p>Capacidad: 500GB</p>
+                <p>Factor de forma: 2,5 pulgadas (7 mm)</p>
+                <p><strong>Precio: $39.650,00</strong></p>
+            </div>
+            <div class="product">
+                <img src="/primer desafío/INTEGRADOR-RODRIGO MONTES/img/placa-rtx-4070.png" alt="Producto 4">
+                <h2>Nvidia Geforce MSI RTX 4070 Ti Super 16GB</h2>
+                <p> PCI Express® Gen 4</p>
+                <p>Boost: 2640 MHz</p>
+                <p><strong>Precio: $1.260.050,00</strong></p>
+            </div>
+        </div>
+       
+        
+        
+   
+
+    </main>
+
+    <section id = "reviews" class="reviews">
+        <h2>Reseñas de Clientes</h2>
+        <div class="review-list">
+            <div class="review">
+               <img src="/primer desafío/INTEGRADOR-RODRIGO MONTES/img/client-svgrepo-com.svg" alt="">
+                <h3>Juan Pérez</h3>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>¡Excelente tienda! Los productos son de alta calidad y el servicio fue rápido.</p>
+            </div>
+            <div class="review">
+                <img src="/primer desafío/INTEGRADOR-RODRIGO MONTES/img/client-svgrepo-com.svg" alt="">
+                <h3>Ana Gómez</h3>
+                <p>⭐⭐⭐⭐</p>
+                <p>Buena experiencia de compra, pero la entrega tardó un poco más de lo esperado.</p>
+            </div>
+            <div class="review">
+                <img src="/primer desafío/INTEGRADOR-RODRIGO MONTES/img/client-svgrepo-com.svg" alt="">
+                <h3>Pedro López</h3>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Me encantó el producto, definitivamente volveré a comprar.</p>
+            </div>
+        </div>
+    </div>
+   
+</div>
+    </section>
+
+
+    <section id="videosmuestra" class ="videos">
+        <h2>videos sobre tecnología que podrían interesarte</h2>
+        <div class="videos-list">
+
+            <div class="videosmuestra">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YwuBh6SazaA?si=gm2JRpAWLAnHe_dT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 <h3>Elegir el procesador ideal en 2024</h3>
+                 <p>Video instructivo que te ayudará a elegir el mejor procesador para tu pc.</p>
+             </div>
+             <div class="videosmuestra">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9hmnWZvGk5I?si=KWr2ubSagBCOGB3O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 <h3>Laptops para programación en 2025</h3>
+                 <p>Video instructivo que te ayudará a elegir una buena opción de laptop para programar en 2024.</p>
+             </div>
+
+             <div class="videosmuestra">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3tppl5kNgaI?si=7ERHmlbgR_6CUNqp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 <h3>Presupuesto para pc económica 2024</h3>
+                 <p>Video instructivo que te ayudará a elegir una computadora económica para jugar este año.</p>
+             </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
+            <h3>Contáctanos</h3>
+            <p>Email: info@tiendatecnologica.com | Teléfono: (123) 456-7890</p>
+
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/primer desafío/INTEGRADOR-RODRIGO MONTES/script.js"></script>
+</body>
+
+</html>

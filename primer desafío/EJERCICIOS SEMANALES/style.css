@@ -1,0 +1,14 @@
+.container {
+    display: flex; 
+
+    padding: 0; 
+  }
+  
+  .cont_izq, .cont_der {
+    margin: 10px; 
+  }
+  
+  .cont_izq li, .cont_der li {
+    margin: 5px 0; 
+  }
+  
