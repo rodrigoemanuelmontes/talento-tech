@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#nombre-poke{
+    text-align: center;
+    background-color: red;
+    color:white;
+    font-size: 30px;
+    border-color: black;
+    border-style:solid;
+   
+    
+}
+
+img{
+    background-color: rgba(128, 193, 226, 0.889);
+    border-color: black;
+    border-style:solid;
+}
+
+.card-body{ 
+    background-color: chocolate;
+    border-color: black;
+    border-style:solid;
+}
+.card-title{
+    font-size: 20px;
+    text-align: center;
+}
+.card-text{
+    text-align:center;
+}
+
+.list-group{
+    border-color: black;
+    border-style:solid;
+    font-size: 20px;
+
+}
+#list-group-item-1{
+    background-color: green;
+    color: white;
+}
+#list-group-item-2{
+    background-color: rgb(74, 98, 216);
+    color: white;
+    
+}
+#list-group-item-3{
+    background-color: rgb(133, 94, 57);
+    color: white;
+  
+}#list-group-item-4{
+    background-color: rgba(241, 75, 24, 0.959);
+    color: white;
+
+}
