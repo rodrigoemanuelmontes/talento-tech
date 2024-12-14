@@ -11,6 +11,7 @@ body {
     height: 100vh; /
 }
 
+
 .card {
     padding-top: 50px;
     width: 250px;
@@ -21,6 +22,7 @@ body {
     margin-top: 60px; 
     position: relative; 
 }
+
 
 #nombre {
     font-family: sans-serif;
